@@ -58,12 +58,6 @@ use Illuminate\Database\Eloquent\Model;
  *     type="object",
  *     ref="#/components/schemas/UrlCollection"
  * )
- *
- * @OA\Property(
- *     property="urls",
- *     type="array",
- *     @OA\Items(ref="#/components/schemas/Url")
- * )
  */
 
 class UrlCollection extends Model

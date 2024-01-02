@@ -25,6 +25,9 @@ php artisan migrate
 
 # Start the development server
 php artisan serve
+
+# Generate API documentation
+php artisan l5-swagger:generate
 ```
 
 ## Specifications

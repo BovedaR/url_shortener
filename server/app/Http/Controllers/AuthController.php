@@ -37,7 +37,7 @@ class AuthController extends BaseController
      *   required=true,
      *  description="Pass user credentials",
      * @OA\JsonContent(
-     * @OA\Property(property="email", type="string"),
+     * @OA\Property(property="name", type="string"),
      * @OA\Property(property="password", type="string"),
      * ),
      * ),
